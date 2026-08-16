@@ -156,16 +156,22 @@
 
 // example on increment and decrement operators
 
+#include<iostream>
+using namespace std;
+int main()
+{ int a=10;
+    cout<<a++<<endl; // post increment: it will print the value of a first and then increment it
+    cout<<a<<endl; // now a is 11
+    cout<<++a<<endl; // pre increment: it will increment the value of a first and then print it
+    cout<<a--<<endl; // post decrement: it will print the value of a first and then decrement it
+    cout<<a<<endl; // now a is 10
+    cout<<--a<<endl; // pre decrement: it will decrement the value of a first and then print it
+    return 0;
+
+}
 // #include<iostream>
 // using namespace std;
 // int main()
-// { int a=10;
-//     cout<<a++<<endl; // post increment: it will print the value of a first and then increment it
-//     cout<<a<<endl; // now a is 11
-//     cout<<++a<<endl; // pre increment: it will increment the value of a first and then print it
-//     cout<<a--<<endl; // post decrement: it will print the value of a first and then decrement it
-//     cout<<a<<endl; // now a is 10
-//     cout<<--a<<endl; // pre decrement: it will decrement the value of a first and then print it
-//     return 0;
-
+// {
+    
 // }
